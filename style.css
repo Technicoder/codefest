@@ -4,5 +4,29 @@
 }
 
 body {
-	background: black;
+	background: white;
+}
+
+header {
+	background: url(http://www.cbc.ca/murdochmysteries/content/images/episodes/MakingMurdoch707LochNess.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #dfa761;
+	text-align: center;
+	font-size: 3em;
+	font-family: Helvetica, Arial;
+}
+
+#main {
+	width: 80%;
+	margin: 20px auto;
+	font-family: Helvetica, Arial;
+	color: #20232a;
 }
